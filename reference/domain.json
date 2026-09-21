@@ -1,5 +1,8 @@
 {
   "timezone": "Asia/Shanghai",
-  "roles": ["放行员", "机务人员", "监管人员", "只读用户"],
-  "eventIdExample": "flight-event-0001"
+  "roles": ["investigator", "auditor", "public_viewer"],
+  "evidenceKinds": ["video", "remote_id", "transcript", "other"],
+  "caseIdExample": "case-0001",
+  "evidenceIdExample": "evi-0001",
+  "findingIdExample": "fnd-0001"
 }
