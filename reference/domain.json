@@ -1,5 +1,15 @@
 {
   "timezone": "Asia/Shanghai",
-  "roles": ["放行员", "机务人员", "监管人员", "只读用户"],
-  "eventIdExample": "flight-event-0001"
+  "roles": ["officer", "approver", "archivist", "auditor", "intaker", "viewer"],
+  "roleNames": {
+    "officer": "办案人员",
+    "approver": "审批人",
+    "archivist": "档案管理员",
+    "auditor": "审计员",
+    "intaker": "外单位录入员",
+    "viewer": "只读用户"
+  },
+  "evidenceKinds": ["video", "remote_id", "record", "other"],
+  "caseStatuses": ["open", "supplementing", "decided", "archived"],
+  "caseIdExample": "case-0001"
 }
